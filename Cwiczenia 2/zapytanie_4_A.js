@@ -10,8 +10,8 @@ printjson(
 		{$group:{
 				_id: "$nationality",
 				avg_BMI: {$avg: "$BMI"},
-				min_BMI: {$avg: "$BMI"},
-				max_BMI: {$avg: "$BMI"}
+				min_BMI: {$min: "$BMI"},
+				max_BMI: {$max: "$BMI"}
 		}}
 	])
 	.toArray()
