@@ -1,0 +1,752 @@
+﻿[
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 286,
+"start": 4,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 277,
+"start": 4,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 269,
+"start": 4,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 287,
+"start": 4,
+"end": 183,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 183,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 278,
+"start": 4,
+"end": 183,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 183,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 270,
+"start": 4,
+"end": 183,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 183,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 288,
+"start": 4,
+"end": 197,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 279,
+"start": 4,
+"end": 197,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 271,
+"start": 4,
+"end": 197,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 202,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    },
+    "relatedTo": {
+"identity": 268,
+"start": 202,
+"end": 197,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Nick Fury"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 199,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christofer Markus"
+      }
+    },
+    "relatedTo": {
+"identity": 265,
+"start": 199,
+"end": 197,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 201,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    },
+    "relatedTo": {
+"identity": 267,
+"start": 201,
+"end": 197,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Steve Rogers",
+          "Captain America"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 198,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    },
+    "relatedTo": {
+"identity": 264,
+"start": 198,
+"end": 197,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 200,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1969,
+"name": "Stephen McFeely"
+      }
+    },
+    "relatedTo": {
+"identity": 266,
+"start": 200,
+"end": 197,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 197,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 289,
+"start": 4,
+"end": 203,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 203,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 280,
+"start": 4,
+"end": 203,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 203,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "relatedTo": {
+"identity": 290,
+"start": 4,
+"end": 215,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 216,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    },
+    "relatedTo": {
+"identity": 281,
+"start": 216,
+"end": 215,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 219,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    },
+    "relatedTo": {
+"identity": 284,
+"start": 219,
+"end": 215,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Steve Rogers",
+          "Captain America"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 220,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    },
+    "relatedTo": {
+"identity": 285,
+"start": 220,
+"end": 215,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Nick Fury"
+        ]
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 218,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1969,
+"name": "Stephen McFeely"
+      }
+    },
+    "relatedTo": {
+"identity": 283,
+"start": 218,
+"end": 215,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 217,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christofer Markus"
+      }
+    },
+    "relatedTo": {
+"identity": 282,
+"start": 217,
+"end": 215,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "CaptainAmerica": {
+"identity": 215,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The first Avenger",
+"title": "Captain America",
+"released": 2011
+      }
+    }
+  }
+]
