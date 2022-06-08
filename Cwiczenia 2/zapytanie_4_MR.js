@@ -6,21 +6,31 @@ map = function() {
 		BMI = weight/Math.pow(height/100,2)
 		val = {
 			count: 1,
-			BMI: BMI
+			min_BMI:BMI, 
+			max_BMI:BMI, 
+			sum_BMI:BMI
 		}
 		emit(this.nationality, val)
 	}
 	
 reduce = function(nationality, values) {
-		BMI = values[0].BMI
-		out = {count:1, min_BMI:BMI, max_BMI:BMI, sum_BMI:BMI}
-		
+		out = {count:0, min_BMI:0.0, max_BMI:0.0, sum_BMI:0.0}
+		start_val = values[0]
+
+		out.count += start_val.count		
+		out.sum_BMI += start_val.sum_BMI
+		out.min_BMI = start_val.min_BMI
+		out.max_BMI = start_val.max_BMI
+
 		for(i=1; i<values.length; i++){
-			BMI = values[i].BMI
+			min_BMI = values[i].min_BMI
+			max_BMI = values[i].max_BMI
+			sum_BMI = values[i].sum_BMI
+
 			out.count += values[i].count
-			out.sum_BMI += BMI
-			out.min_BMI = out.min_BMI > BMI ? BMI: out.min_BMI 
-			out.max_BMI = out.max_BMI < BMI ? BMI: out.max_BMI
+			out.sum_BMI += sum_BMI
+			out.min_BMI = out.min_BMI > min_BMI ? min_BMI: out.min_BMI 
+			out.max_BMI = out.max_BMI < max_BMI ? max_BMI: out.max_BMI
 		}
 		
 		return out 
