@@ -1,0 +1,18 @@
+Current Mongosh Log ID:	629938f5e9e959fc894bbf04
+Using Mongosh:		1.3.1
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+Loading file: zapytanie_1_MR.js
+DeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+[
+  {
+    _id: 'Male',
+    value: { height_avg: 166.73555622854852, weight_avg: 70.0125903492833 }
+  },
+  {
+    _id: 'Female',
+    value: { height_avg: 166.81260913705572, weight_avg: 70.11331573604069 }
+  }
+]
