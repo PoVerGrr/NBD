@@ -1,0 +1,43 @@
+Zad 01.
+MATCH (movie:Movie) return movie
+
+Zad 02.
+MATCH (:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies) RETURN  hugoMovies
+
+Zad 03.
+MATCH (:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies)<-[:DIRECTED]-(directors) RETURN directors
+
+Zad 04.
+MATCH (:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies)<-[:ACTED_IN]-(actor:Person) RETURN actor
+
+Zad 05.
+MATCH (:Movie {title: "The Matrix"})<-[:ACTED_IN]-(:Person)-[:ACTED_IN]->(film:Movie) RETURN film
+
+Zad 06.
+MATCH (actor:Person)-[:ACTED_IN]->(:Movie) RETURN actor.name, COUNT(*) AS ilosc_filmow
+
+Zad 07.
+MATCH (director:Person)-[:DIRECTED]->(movie:Movie)<-[:WROTE]-(writer:Person) WHERE director=writer RETURN director.name, movie.title
+
+Zad 08.
+MATCH (:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(:Person {name: "Keanu Reeves"}) RETURN  movie
+
+Zad 09.
+CREATE (CaptainAmerica:Movie {title:'Captain America', released:2011, tagline:'The first Avenger'})
+CREATE (Joe:Person {name:'Joe Johnston', born:1950})
+CREATE (Christofer:Person {name:'Christofer Markus', born:1970})
+CREATE (Stephen:Person {name:'Stephen McFeely', born:1969})
+CREATE (Chris:Person {name:'Chris Evans', born:1981})
+CREATE (Samuel:Person {name:'Samuel L. Jackson', born:1948})
+CREATE
+   (Joe)-[:DIRECTED]->(CaptainAmerica),
+   (Christofer)-[:WROTE]->(CaptainAmerica),
+   (Stephen)-[:WROTE]->(CaptainAmerica),
+   (Chris)-[:ACTED_IN {roles:['Steve Rogers', 'Captain America']}]->(CaptainAmerica),
+   (Samuel)-[:ACTED_IN {roles:['Nick Fury']}]->(CaptainAmerica);
+
+MATCH (hugo:Person {name: "Hugo Weaving"})
+MATCH (CaptainAmerica:Movie {title:'Captain America'})
+CREATE (hugo)-[:ACTED_IN {roles: ['Johann Schmidt', 'Red Skull']}]->(CaptainAmerica);
+
+MATCH (people:Person)-[relatedTo]-(CaptainAmerica:Movie {title: "Captain America"}) RETURN people, relatedTo, CaptainAmerica;
