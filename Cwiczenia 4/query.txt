@@ -1,0 +1,29 @@
+Zad1.
+MATCH (darjeeling:town { name: "Darjeeling" }), (sandakphu:peak { name: "Sandakphu" })
+MATCH path = ShortestPath((darjeeling)-[*]->(sandakphu))
+RETURN path
+
+Zad2.
+MATCH (darjeeling:town { name: "Darjeeling" }), (sandakphu:peak { name: "Sandakphu" })
+MATCH path = ShortestPath((darjeeling)-[*]->(sandakphu))
+WHERE ALL (segment IN relationships(path) WHERE segment.winter = "true")
+RETURN path
+
+Zad3.
+MATCH path = (darjeeling:town { name: "Darjeeling" })-[relations*]->(sandakphu:peak { name: "Sandakphu" })
+RETURN [segment IN relationships(path) | segment.name + " - " + type(segment)], REDUCE(partialResult = 0, relation IN relations | partialResult + relation.distance) AS distance
+ORDER BY distance
+
+Zad4.
+MATCH path = (darjeeling:town { name: "Darjeeling" })-[:twowheeler*]->(location)
+WHERE ALL (segment IN relationships(path) WHERE segment.summer = 'true')
+RETURN location
+
+// nie wiem dlaczego ale tu dostaje brak wyników może źle dane zaimportowałem
+
+Zad5.
+MATCH (flight:Flight)-[:ORIGIN]->(airport:Airport)
+RETURN airport, COUNT(flight) AS flights ORDER BY flights
+
+Zad6.
+// tu już się poddałem D: 
